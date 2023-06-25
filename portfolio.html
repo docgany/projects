@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1"/>
+    <link rel="stylesheet" href="style2.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <img src="images/profile0.jpg" width="300px" height="auto" class="profile-picture"/>
+        <h1>Grace Okengwu</h1>
+        <h3>Medical Doctor and Aspiring Web Developer</h3>
+        <p class="quote">{{ Pause and ponder }}</p>
+      </div>
+      <hr>
+
+      <div class="about-grid">
+
+        <div class="i-am">
+          <h3>I am</h3>
+          <ul class="about-list">
+            <li>A medical doctor</li>
+            <li>An aspiring web developer</li>
+            <li>A wife and a mother to 3 children</li>
+            <li>A hobby cook</li>
+            <li>An educator</li>
+            <li>A reader</li>
+          </ul>
+        </div>
+        <div class="i-like">
+          <h3>I like to</h3>
+          <ul class="about-list">
+            <li>Learn about new things</li>
+            <li>Try new challenges</li>
+            <li>Spend time with my kids</li>
+            <li>Watch intruiging movies</li>
+            <li>Listen and dance to music</li>
+            <li>Spend time alone with myself</li>
+          </ul>
+        </div>
+
+      </div>
+      <hr>
+
+      <div>
+        <h3 class="projects-heading">My Projects</h3>
+        <div class="projects-grid">
+        <img class="project-image" 
+        src="images/project-1.jpg"/>
+        <img class="project-image"
+        src="images/project-2.jpg"/>
+        <img class="project-image" 
+        src="images/project-3.jpg"/>
+        <img class="project-image" 
+        src="images/project-4.jpg"/>
+        </div>
+      </div>
+      <hr>
+
+      <div class="links-contact">
+        <div class="links">
+          <h3>Links</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://github.com/users">Github</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/user">Twitter</a>
+            </li>
+          </ul>
+        </div> 
+      
+        <div>
+          <form action="#">
+            <label for="email">
+              <h4>Email</h4>
+              <input type="email" id="email" placeholder="Enter your email">
+            </label>
+            <label for="message">
+              <h4>Message</h4>
+               <textarea id="message">Your Message</textarea>
+            </label>
+            <div class="submit-button-wrapper">
+            <input type="submit" valid="Send Message" id="submit-button"/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+   </body>
+ </html>
